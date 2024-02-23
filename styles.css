@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  align-items: center;
+  background-image: radial-gradient(
+    circle farthest-corner at 10.6% 23.3%,
+    rgba(186, 162, 252, 1) 0%,
+    rgba(176, 248, 242, 1) 72.4%
+  );
+}
+.color {
+  border: 10px solid #212121;
+}
+table,
+th,
+td {
+  border: 5px solid #212121;
+  margin: 6px;
+  padding: 8px;
+}
